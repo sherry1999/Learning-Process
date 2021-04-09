@@ -1,0 +1,577 @@
+@import'colors';
+
+* {
+    box-sizing: border-box;
+
+
+
+}
+
+button a {
+    text-decoration: none;
+    color: white;
+}
+
+#infobar {
+    background-color: $siteblue;
+
+    li {
+        padding-left: 50px;
+        margin-top: 10px;
+    }
+
+    li a {
+        color: white;
+        text-decoration: none;
+    }
+
+    li a:hover {
+        color: $sitegrey;
+    }
+}
+
+#modal {
+    i {
+        color: $sitered;
+        font-size: 30px;
+    }
+
+    button {
+        @include btnred;
+        border-radius: 10px;
+    }
+
+    button:hover {
+        background-color: $siteblue;
+
+    }
+}
+
+#navbar {
+
+    h5 {
+        padding-top: 30px;
+    }
+
+    p {
+        left: 0;
+    }
+
+    li a {
+        list-style: none;
+        color: #333333;
+        font-weight: bold;
+    }
+
+    a:hover {
+        color: $sitered;
+    }
+
+    li {
+        padding-left: 10px;
+    }
+
+    #searchicon {
+        color: $sitered;
+        position: absolute;
+        top: 45%;
+        left: 100%;
+    }
+}
+
+#searchmodal {
+
+    .modal-content {
+        background-color: #333333;
+    }
+
+    input {
+
+        border: none;
+        background-color: transparent;
+        border-bottom: 4px solid $sitered;
+        margin-top: 60%;
+    }
+
+    ::placeholder {
+        color: white;
+    }
+
+    i {
+        color: $sitered;
+        position: absolute;
+        top: 5%;
+        left: 95%;
+    }
+
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+#slider {
+
+
+    p {
+        text-align: start;
+
+    }
+
+    .carousel-inner img {
+        width: 100%;
+        height: 400px;
+    }
+
+    .carousel-indicators li {
+        width: 10px;
+        height: 10px;
+        border-radius: 100%;
+        background-color: $sitered;
+    }
+
+    .carousel-caption {
+        position: absolute;
+        left: 50px;
+        top: 50px;
+
+        p :nth-child(:first-child) {
+            font-size: 30px;
+
+        }
+
+        #firstbtn {
+            @include btnred;
+            border-radius: 5px;
+            width: 200px;
+            margin: 0;
+
+        }
+
+        #secondbtn {
+
+            border-radius: 5px;
+            width: 150px;
+            height: 46px;
+            border-width: 3px;
+            font-weight: bold;
+        }
+
+        button:hover,
+        #firstbtn:hover {
+            @include btnredhover;
+
+            a {
+                color: $siteblue;
+            }
+        }
+    }
+
+}
+
+#info {
+    hr {
+        @include hr;
+    }
+
+    .card {
+        border-color: white;
+    }
+
+    .card p {
+        color: $sitegrey;
+    }
+
+    .card button {
+        border: 2px solid #0d2d62;
+        color: #0d2d62;
+        background-color: white;
+        width: 180px;
+        font-weight: bolder;
+        padding: 10px;
+        border-radius: 5px;
+    }
+
+    .card button:hover {
+        background-color: $siteblue;
+        color: white;
+
+        a {
+            color: white;
+        }
+    }
+
+    .card button a {
+        color: $siteblue;
+    }
+}
+
+#courses {
+    .card {
+        border: white;
+    }
+
+    .img-card {
+        background-color: $siteblue;
+    }
+
+    hr {
+        @include hr;
+        color: white;
+    }
+
+    #features {
+        background-color: $siteblue;
+        color: white;
+    }
+
+    .course {
+        background-color: white;
+    }
+
+    .course span h4 {
+        color: $sitered;
+    }
+
+    .course span h5 {
+        color: black;
+    }
+
+    .course span h6 {
+        color: $sitegrey;
+    }
+
+    button {
+        @include btnred;
+        width: 200px;
+        margin: 0;
+    }
+
+    button:hover {
+        @include btnredhover;
+
+        a {
+            color: $siteblue;
+        }
+    }
+
+    #space {
+        padding-bottom: 5%;
+    }
+
+}
+
+#counters {
+    hr {
+        @include hr;
+    }
+
+    .card-header i {
+        width: 100px;
+        height: 100px;
+        color: $siteblue;
+        border-radius: 100%;
+        background-color: white;
+        border: 2px solid lightgray;
+        font-size: 50px;
+    }
+
+    .card-body h3 {
+        color: $sitered;
+    }
+}
+
+#video {
+    .card-img-overlay button {
+        @include btnred;
+        margin: 0;
+    }
+
+    // video {
+    //     height: 50%;
+    //     width: 100%;
+    // }
+}
+
+#events {
+    hr {
+        @include hr;
+    }
+
+    #eventimg img {
+        height: 400px;
+    }
+
+    #eventdate {
+        background-color: $siteblue;
+        color: white;
+    }
+
+    a {
+        text-decoration: none;
+        color: $sitered;
+        font-weight: bold;
+    }
+
+    a:hover {
+        color: $siteblue;
+    }
+
+    button {
+        @include btnred;
+        width: 200px;
+        margin: 0;
+
+        a {
+            color: white;
+        }
+    }
+
+    button:hover {
+        background-color: $siteblue;
+
+        a {
+            color: white;
+        }
+    }
+}
+
+#feedback {
+    background-color: $siteblue;
+    color: white;
+
+    p {
+        font-size: 25px;
+    }
+
+    img {
+        width: 170px;
+        height: 170px;
+        border: 1px solid #0d2d62;
+        border-radius: 100%;
+    }
+
+    em {
+        padding-bottom: 30px;
+    }
+
+
+}
+
+#latest-news {
+    hr {
+        @include hr;
+    }
+
+    a {
+        color: $sitered;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    a:hover {
+        color: $siteblue;
+    }
+
+    button {
+        @include btnred;
+        width: 200px;
+
+        a {
+            color: white;
+        }
+    }
+
+    button:hover {
+        background-color: $siteblue;
+
+        a {
+            color: white;
+        }
+    }
+
+    #space {
+        padding-bottom: 5%;
+    }
+
+}
+
+#footercontact {
+
+    h6 {
+        padding-bottom: 10px;
+        color: $sitegrey;
+    }
+
+    h6 i {
+        color: $siteblue;
+        padding-right: 5px;
+    }
+
+    button {
+        @include btnred;
+        margin: 0;
+    }
+
+    button:hover {
+        @include btnredhover;
+        border: 2px solid $siteblue;
+    }
+
+    .card {
+        border: none;
+    }
+}
+
+#copyright {
+    background-color: $siteblue;
+
+    i {
+        width: 35px;
+        height: 35px;
+        background-color: $sitered;
+        border-radius: 100%;
+        font-size: large;
+    }
+
+    height: 60px;
+
+
+
+}
+
+
+
+
+
+
+
+@media only screen and (max-width:430px) {
+    #navbar {
+        img {
+            width: 250px;
+            align-self: center;
+            margin-left: 30px;
+        }
+
+        position: relative;
+
+        #brandname {
+            margin-left: 10%;
+
+            p {
+                display: none;
+            }
+        }
+
+        button i {
+            position: absolute;
+            top: 86%;
+            left: 80%;
+            color: black;
+        }
+
+        #searchicon {
+            color: $sitered;
+            position: absolute;
+            top: 87%;
+            left: 70%;
+        }
+
+    }
+
+    #slider {
+        .carousel-inner img {
+            height: 600px;
+        }
+    }
+
+    #secondbtn {
+        margin-top: 20px;
+
+    }
+
+    #info {
+        .card img {
+            width: 50%;
+        }
+    }
+
+    #counters {
+        .card {
+            padding-left: 30%;
+        }
+    }
+
+    #video {
+        .card-img-overlay {
+
+            h1,
+            h6 {
+                font-size: 15px;
+            }
+        }
+    }
+
+    #event {
+
+        #eventname h6,
+        a {
+            padding-left: 30%;
+        }
+
+
+    }
+
+    #feedback {
+
+        p {
+            font-size: 15px;
+        }
+
+        em {
+            margin: 0;
+            font-size: 12px;
+        }
+
+        img {
+            margin-left: 80px;
+        }
+    }
+
+}
+
+@media only screen and (max-width:770px) {
+    #searchicon {
+        color: $sitered;
+        position: absolute;
+        top: 20%;
+        left: 100%;
+    }
+
+}
+
+@media only screen and (min-width:1024px) {
+    #info {
+        .card {
+            img {
+                height: 420px;
+            }
+        }
+    }
+
+    #slider {
+        .carousel-inner p {
+            font-size: 30px;
+        }
+    }
+
+    #courses {
+        .course span {
+            font-size: 2em;
+        }
+    }
+
+    #space {
+        padding-bottom: 1%;
+    }
+}

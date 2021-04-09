@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+}
+
+#accordion h5 a {
+  text-decoration: none;
+  color: #b80924;
+}
+
+#accordion h5 a:hove {
+  color: #0d2d62;
+}
+
+#collapseOne form input,
+textarea {
+  position: absolute;
+  right: 30px;
+  width: 50%;
+}

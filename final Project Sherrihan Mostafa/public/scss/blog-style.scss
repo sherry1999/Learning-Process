@@ -1,0 +1,108 @@
+@import'colors';
+
+content {
+    #posts {
+        .card {
+            border: none;
+        }
+
+        img {
+            border-radius: 10px;
+        }
+
+        h3 {
+            color: black;
+        }
+
+        h3:hover {
+            color: $sitered;
+        }
+
+        h6 {
+            color: $sitegrey;
+            font: size 20px;
+
+        }
+
+        p {
+            font-size: 22px;
+            // color: lightslategray;
+            color: $sitegrey;
+
+        }
+
+        em {
+            color: $sitered;
+            font-style: normal;
+            padding-right: 20px;
+        }
+
+        em:hover {
+            color: $siteblue
+        }
+
+        hr {
+            width: 60%;
+            color: $sitegrey;
+        }
+
+        .square {
+            background-color: lightgray;
+            width: 30px;
+            height: 30px;
+            border-radius: 5px;
+            border: solid 2px lightgray;
+
+        }
+
+        .square2 {
+            background-color: white;
+            width: 30px;
+            height: 30px;
+            border-radius: 5px;
+            border: solid 2px lightgray;
+            margin-left: 30px;
+        }
+
+        #pages {
+            h6 {
+                color: $sitered;
+                margin-left: 30px;
+            }
+
+            h6:hover {
+                color: $siteblue;
+            }
+        }
+    }
+
+    #aside {
+        #search {
+            background-color: $sitered;
+            width: 35px;
+            height: 35px;
+            border-radius: 5px;
+        }
+
+        a {
+            text-decoration: none;
+            color: lightslategrey;
+            font-size: 18px;
+            padding-top: 20px;
+        }
+
+        a:hover {
+            color: $sitered;
+            font-weight: bold;
+        }
+
+        .card {
+            border: none;
+        }
+    }
+
+}
+
+hr {
+    color: silver;
+}

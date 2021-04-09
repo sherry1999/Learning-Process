@@ -1,0 +1,17 @@
+@import'colors';
+
+input {
+    @include btnred;
+    background-color: $siteblue;
+    font-style: italic;
+}
+
+#menu input:hover,
+#share:hover {
+    background-color: $sitered;
+}
+
+#writepost,
+#post {
+    border: 1px solid $sitered;
+}

@@ -1,0 +1,24 @@
+@import'colors';
+
+contact {
+    i {
+        color: $sitered;
+        border: 2px solid $siteblue;
+        width: 80px;
+        height: 80px;
+        border-radius: 100%;
+        padding-top: 20px;
+        margin-left: 50px;
+        font-size: 30px;
+    }
+
+    #form {
+        button {
+            @include btnred;
+            margin: 0;
+            width: 200px;
+            height: 40px;
+            font-weight: normal;
+        }
+    }
+}

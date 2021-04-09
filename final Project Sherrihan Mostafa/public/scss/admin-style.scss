@@ -1,0 +1,22 @@
+@import'colors';
+
+* {
+    box-sizing: border-box;
+}
+
+#accordion h5 a {
+    text-decoration: none;
+    color: $sitered;
+}
+
+#accordion h5 a:hove {
+    color: $siteblue;
+}
+
+#collapseOne form input,
+textarea {
+    position: absolute;
+    right: 30px;
+    width: 50%;
+
+}

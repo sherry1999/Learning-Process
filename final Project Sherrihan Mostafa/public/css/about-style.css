@@ -1,0 +1,150 @@
+/* Style the tab */
+.tab {
+  float: left;
+  border: 1px solid #86898c;
+  background-color: #0d2d62;
+  width: 30%;
+  height: 2000px;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+  display: block;
+  background-color: #0d2d62;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  font-style: italic;
+  padding: 22px;
+  width: 100%;
+  border: none;
+  outline: none;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #b80924;
+}
+
+/* Create an active/current "tab button" class */
+.tab button.active {
+  background-color: #86898c;
+}
+
+/* Style the tab content */
+.tabcontent {
+  padding: 0px 12px;
+  width: 60%;
+  height: 100%;
+  margin-left: 35%;
+}
+
+h2 {
+  color: #0d2d62;
+}
+
+#first p {
+  text-align: start;
+}
+
+#first img {
+  height: 400 px;
+}
+
+#first p h4 {
+  padding-left: 5px;
+}
+
+#Strategy h4 i {
+  font-size: 30px;
+  padding-right: 10px;
+}
+
+#History #spinner {
+  background-color: lightgray;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+#History #spinner {
+  margin-left: 10px;
+}
+
+#Board img {
+  border-radius: 100%;
+  width: 200px;
+  height: 200px;
+  border: 2px solid #0d2d62;
+}
+
+#Board span {
+  background-color: gainsboro;
+  border-radius: 30px;
+  border: 2px solid #0d2d62;
+  width: 50%;
+}
+
+#Board span h5 {
+  color: #b80924;
+}
+
+#Board span h6 {
+  color: #0d2d62;
+}
+
+#Board #president {
+  width: 80%;
+}
+
+#Strategy i,
+#Polices h4 i {
+  color: #b80924;
+}
+
+#Polices h4 {
+  color: #0d2d62;
+}
+
+#History h3 {
+  color: #b80924;
+}
+
+h2 em {
+  color: #b80924;
+  font-style: italic;
+  font-weight: light;
+}
+
+hr {
+  width: 50%;
+  padding-bottom: 5px;
+  font-weight: bolder;
+  color: #0d2d62;
+}
+
+#MissionVision h4 {
+  color: #b80924;
+}
+
+@media only screen and (max-width: 430px) {
+  .tab {
+    width: 100%;
+    height: 300px;
+  }
+  .tabcontent {
+    margin-left: 0;
+    width: 100%;
+  }
+  .tabcontent #first {
+    margin-top: 125px;
+  }
+  #Board span,
+  #president {
+    width: 100%;
+    margin: 15px;
+    padding: 8px;
+  }
+}

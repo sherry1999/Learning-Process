@@ -1,0 +1,40 @@
+$siteblue:#0d2d62;
+$sitered:#b80924;
+$sitegrey:#86898c;
+$dimgrey:#696969;
+$sitebody:#f4f4fc;
+$width:max-width;
+
+@mixin hr($color) {
+    width: 60px;
+    padding-bottom: 7px;
+    color: $color;
+}
+
+@mixin btnred {
+
+
+    background-color: $sitered;
+    border: none;
+    color: white;
+    margin-top: 100px;
+    font-weight: bold;
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+
+
+}
+
+@mixin btnredhover {
+
+    background-color: white;
+    color: $siteblue;
+}
+
+@mixin hr {
+    width: 60px;
+    padding-bottom: 7px;
+    color: black;
+
+}

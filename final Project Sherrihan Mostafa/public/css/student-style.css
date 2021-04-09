@@ -1,0 +1,22 @@
+input {
+  background-color: #b80924;
+  border: none;
+  color: white;
+  margin-top: 100px;
+  font-weight: bold;
+  width: 150px;
+  height: 50px;
+  border-radius: 5px;
+  background-color: #0d2d62;
+  font-style: italic;
+}
+
+#menu input:hover,
+#share:hover {
+  background-color: #b80924;
+}
+
+#writepost,
+#post {
+  border: 1px solid #b80924;
+}
