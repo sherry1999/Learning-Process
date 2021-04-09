@@ -1,0 +1,93 @@
+content #posts .card {
+  border: none;
+}
+
+content #posts img {
+  border-radius: 10px;
+}
+
+content #posts h3 {
+  color: black;
+}
+
+content #posts h3:hover {
+  color: #b80924;
+}
+
+content #posts h6 {
+  color: #86898c;
+  font: size 20px;
+}
+
+content #posts p {
+  font-size: 22px;
+  color: #86898c;
+}
+
+content #posts em {
+  color: #b80924;
+  font-style: normal;
+  padding-right: 20px;
+}
+
+content #posts em:hover {
+  color: #0d2d62;
+}
+
+content #posts hr {
+  width: 60%;
+  color: #86898c;
+}
+
+content #posts .square {
+  background-color: lightgray;
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+  border: solid 2px lightgray;
+}
+
+content #posts .square2 {
+  background-color: white;
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+  border: solid 2px lightgray;
+  margin-left: 30px;
+}
+
+content #posts #pages h6 {
+  color: #b80924;
+  margin-left: 30px;
+}
+
+content #posts #pages h6:hover {
+  color: #0d2d62;
+}
+
+content #aside #search {
+  background-color: #b80924;
+  width: 35px;
+  height: 35px;
+  border-radius: 5px;
+}
+
+content #aside a {
+  text-decoration: none;
+  color: lightslategrey;
+  font-size: 18px;
+  padding-top: 20px;
+}
+
+content #aside a:hover {
+  color: #b80924;
+  font-weight: bold;
+}
+
+content #aside .card {
+  border: none;
+}
+
+hr {
+  color: silver;
+}

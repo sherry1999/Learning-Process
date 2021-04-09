@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>projects page</title>
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/project-style.css">
+    <link rel="stylesheet" href="bootstrap-5.0.0-beta1-dist/css/bootstrap.min.css">
+</head>
+<body>
+<!-- ***********************  Login Modal   ********************************************************************** -->
+    <div class="modal fade" id="modal">
+        <div class="modal-dialog modal-sm modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header border-0 justify-content-end" data-dismiss="modal"><i class="fa fa-times-circle" aria-hidden="true"></i></div>
+                <div class="modal-body offset-1">
+                
+                        <label for="" name="username" class="px-3" required>Username</label> <br>
+                        <input type="text" class="w-75 mt-2"> <br>
+                        <label for="" name="password" class="px-3">Password</label> <br>
+                        <input type="password" class="w-75 mt-2"> <br>
+                        <div class="form-check mt-4">
+                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                            <label class="form-check-label" for="defaultCheck1">
+                              Remember Me
+                            </label>
+                          </div> <!-- end form check -->
+                          <button class="mt-4 ms-4">LOG IN </button>
+                </div>  <!-- end modal body -->
+            </div>  <!-- end modal content -->
+        </div>  <!-- end modal dialog -->
+    </div> <!-- end modal -->          
+<!-- *********************** end  Login Modal   ********************************************************************** -->
+<!-- ***********************  search Modal   ********************************************************************** -->
+    <div class="modal fade" id="searchmodal">
+        <div class="modal-dialog modal-fullscreen">
+            <div class="modal-content modal-fullscreen modal-dialog-centered modal-dialog-scrollable">
+                <div class="modal-header border-0 justify-content-end" data-dismiss="modal"><i class="fa fa-window-close" aria-hidden="true"></i></div>
+                <div class="modal-body justify-content-center">
+                <input type="text" placeholder="search .." class="">
+                        
+                </div>  <!-- end modal body -->
+            </div>  <!-- end modal content -->
+        </div>  <!-- end modal dialog -->
+    </div> <!-- end modal -->          
+<!-- *********************** end  search Modal   ********************************************************************** -->
+    <header>
+        <div class="container-fluid" id="infobar">
+            <div class="row">
+                <div class="justify-content-md-center">
+                    <ul class="list-unstyled d-md-inline-flex">
+                        <li class="text-light"><i class="fa fa-phone" aria-hidden="true"></i> (1234567)</li>
+                        <li class="text-light"><i class="fas fa-envelope" aria-hidden="true"> university.com</i></li>
+                        <li class="text-light"><i class="fa fa-map-marker" aria-hidden="true"></i> 24/7 Emergency Service</li>
+                    </ul>
+                    <li class="float-md-end text-light list-unstyled"><a href="" data-toggle="modal" data-target="#modal"><i class="fas fa-sign-in-alt" aria-hidden="true"></i> Login</a></li>
+                </div> <!-- end div->ul -->   
+            </div> <!-- end row -->   
+        </div>  <!-- end container infobar -->   
+    
+        <div class="container" id="navbar">
+            <div class="row">
+                <nav class="navbar navbar-expand-md justify-content-md-between">
+                  <div class="navbar-brand d-md-inline-flex">
+                      <img src="img/uni-logo.png" alt="logo" class="col-md-4"> 
+                      <div id="brandname">
+                        <h5 class="mt-0 clear">SHERRY<em>UNI</em></h5>
+                        <p class="">NO ONE LIKE YOU <br>NO PLACE LIKE US</p>
+                       </div>   <!-- end brandname -->
+                  </div>  <!-- end navbar-brand -->
+                    <button class="navbar-toggler float-end" type="button" data-toggle="collapse" data-target="#navbarlist" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="fa fa-bars" aria-hidden="true"></i>
+                    </button>        
+                    <div class="collapse navbar-collapse justify-content-xxl-end" id="navbarlist">
+                        <ul class="nav navbar-nav">
+                            <li class="nav-item "><a href="index.html" class="nav-link">Home</a></li>
+                            <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+                            <li class="nav-item dropdown">
+                                <a href="services.html" class="nav-link dropdown-toggle" data-toggle="dropdown">Services</a>
+                                <ul class="dropdown-menu">
+                                    <li class="dropdown-item">Global Education</li>
+                                    <li class="dropdown-item">Online Learning</li>
+                                    <li class="dropdown-item">Programs</li>
+                                    <li class="dropdown-item">Summer Sessions</li>
+                                    <li class="dropdown-item">Ungraduate Study</li>
+                                    <li class="dropdown-item">Professional Study</li>
+
+
+
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="project.html" class="nav-link dropdown-toggle" data-toggle="dropdown">Project</a>
+                                <ul class="dropdown-menu">
+                                    <li class="dropdown-item">International Conference on Biomolecular Engineering</li>
+                                    <li class="dropdown-item">History of Art</li>
+                                    <li class="dropdown-item">NASA Schedules</li>
+                                    <li class="dropdown-item">Spacewalking Conference</li>
+                                    <li class="dropdown-item">Graphic Design Workshop</li>
+                                </ul>
+                            </li>
+                            <li class="nav-item "><a href="" class="nav-link">Pricing</a></li>
+                            <li class="nav-item "><a href="blog.html" class="nav-link">Blog</a></li>
+                            <li class="nav-item "><a href="contact.html" class="nav-link">Contacts</a></li>
+
+
+
+                        </ul>
+                    </div>   <!-- end navbarlist -->
+                    <i class="fa fa-search" id="searchicon"data-toggle="modal" data-target="#searchmodal" aria-hidden="true"></i>
+
+                </nav>
+            </div> <!-- end row navbar -->   
+        </div> <!-- end container navbar -->   
+        
+    </header>
+    <body>
+     <content>
+
+     <div class="container" id="menu">
+         <div class="row">
+         
+             <h1 class="display-3 fw-bold text-center">Our Project</h1>
+             <h5 class="mt-5 text-center">We are proud to show you our projects that were made with all our skills and professiona</h5>
+             <ul class="nav nav-pills justify-content-center" id="pills-tab" role="tablist">
+                <li class="nav-item">
+                  <a class="nav-link active" id="pills-All-tab" data-toggle="pill" href="#pills-All" role="tab" aria-controls="pills-All" aria-selected="true">All</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" id="pills-Departmens-tab" data-toggle="pill" href="#pills-Departmens" role="tab" aria-controls="pills-Departmens" aria-selected="false">Departmens</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" id="pills-Graduate-tab" data-toggle="pill" href="#pills-Graduate" role="tab" aria-controls="pills-Graduate" aria-selected="false">Graduate</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="pills-Learning-tab" data-toggle="pill" href="#pills-Learning" role="tab" aria-controls="pills-Learning" aria-selected="false">Learning</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="pills-ProfessionalStudy-tab" data-toggle="pill" href="#pills-ProfessionalStudy" role="tab" aria-controls="pills-ProfessionalStudy" aria-selected="false">Professional Study</a>
+                </li>
+
+              </ul>
+              <br>
+              <div class="tab-content" id="pills-tabContent">
+                <div class="tab-pane fade show active" id="pills-All" role="tabpanel" aria-labelledby="pills-All-tab">
+                    <div class="d-md-inline-flex d-sm-block mt-4" id="project">
+                        <img src="img/event2.jpg" alt="" class="img-fluid col-md-5 col-sm-10">
+                        <span class="fa-pull-left px-3 mt-2 mt-xl-3">
+                            <h4 class="mt-0">International Conference on Biomolecular Engineering</h4>
+                            <h5 class="mt-4">A picture paints a thousand words. So if you’re planning on pursuing a career in…</h5>
+                            <br> 
+                            <button class="text-white fw-bold mt-3">VIEW DETAILS</button>    
+                           </span>
+                    </div>
+                    <div class="d-md-inline-flex d-sm-block mt-4" id="project">
+                        <img src="img/event1.jpg" alt="" class="img-fluid col-md-5 col-sm-10">
+                        <span class="fa-pull-left px-3 mt-2 mt-xl-3">
+                            <h4 class="mt-0">Spacewalking Conference</h4>
+                            <h5 class="mt-4">A picture paints a thousand words. So if you’re planning on pursuing a career in…</h5>
+                            <br> 
+                            <button class="text-white fw-bold mt-3">VIEW DETAILS</button>    
+                           </span>
+                    </div>
+                    <div class="d-md-inline-flex d-sm-block mt-4" id="project">
+                        <img src="img/event3.jpg" alt="" class="img-fluid col-md-5 col-sm-10">
+                        <span class="fa-pull-left px-3 mt-2 mt-xl-3">
+                            <h4 class="mt-0">Graphic Design Workshop</h4>
+                            <h5 class="mt-4">A picture paints a thousand words. So if you’re planning on pursuing a career in…</h5>
+                            <br> 
+                            <button class="text-white fw-bold mt-3">VIEW DETAILS</button>    
+                           </span>
+                    </div>
+                    <div class="d-md-inline-flex d-sm-block mt-4" id="project">
+                        <img src="img/event4.jpg" alt="" class="img-fluid col-md-5 col-sm-10">
+                        <span class="fa-pull-left px-3 mt-2 mt-xl-3">
+                            <h4 class="mt-0">History of Art</h4>
+                            <h5 class="mt-4">A picture paints a thousand words. So if you’re planning on pursuing a career in…</h5>
+                            <br> 
+                            <button class="text-white fw-bold mt-3">VIEW DETAILS</button>    
+                           </span>
+                    </div>
+                    <div class="d-md-inline-flex d-sm-block mt-4" id="project">
+                        <img src="img/project-9.jpg" alt="" class="img-fluid col-md-5 col-sm-10">
+                        <span class="fa-pull-left px-3 mt-2 mt-xl-3">
+                            <h4 class="mt-0">NASA Schedules</h4>
+                            <h5 class="mt-4">A picture paints a thousand words. So if you’re planning on pursuing a career in…</h5>
+                            <br> 
+                            <button class="text-white fw-bold mt-3">VIEW DETAILS</button>    
+                           </span>
+                    </div>
+
+
+
+                </div>
+                <div class="tab-pane fade" id="pills-Departmens" role="tabpanel" aria-labelledby="pills-Departmens-tab">
+                    <div class="d-md-inline-flex d-sm-block mt-4" id="project">
+                        <img src="img/event2.jpg" alt="" class="img-fluid col-md-5 col-sm-10">
+                        <span class="fa-pull-left px-3 mt-2 mt-xl-3">
+                            <h4 class="mt-0">International Conference on Biomolecular Engineering</h4>
+                            <h5 class="mt-4">A picture paints a thousand words. So if you’re planning on pursuing a career in…</h5>
+                            <br> 
+                            <button class="text-white fw-bold mt-3">VIEW DETAILS</button>    
+                           </span>
+                    </div>
+                     <div class="d-md-inline-flex d-sm-block mt-4" id="project">
+                        <img src="img/project-9.jpg" alt="" class="img-fluid col-md-5 col-sm-10">
+                        <span class="fa-pull-left px-3 mt-2 mt-xl-3">
+                            <h4 class="mt-0">NASA Schedules</h4>
+                            <h5 class="mt-4">A picture paints a thousand words. So if you’re planning on pursuing a career in…</h5>
+                            <br> 
+                            <button class="text-white fw-bold mt-3">VIEW DETAILS</button>    
+                           </span>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="pills-Graduate" role="tabpanel" aria-labelledby="pills-Graduate-tab">
+                    <div class="d-md-inline-flex d-sm-block mt-4" id="project">
+                        <img src="img/event2.jpg" alt="" class="img-fluid col-md-5 col-sm-10">
+                        <span class="fa-pull-left px-3 mt-2 mt-xl-3">
+                            <h4 class="mt-0">International Conference on Biomolecular Engineering</h4>
+                            <h5 class="mt-4">A picture paints a thousand words. So if you’re planning on pursuing a career in…</h5>
+                            <br> 
+                            <button class="text-white fw-bold mt-3">VIEW DETAILS</button>    
+                           </span>
+                    </div>
+                    <div class="d-md-inline-flex d-sm-block mt-4" id="project">
+                        <img src="img/event4.jpg" alt="" class="img-fluid col-md-5 col-sm-10">
+                        <span class="fa-pull-left px-3 mt-2 mt-xl-3">
+                            <h4 class="mt-0">History of Art</h4>
+                            <h5 class="mt-4">A picture paints a thousand words. So if you’re planning on pursuing a career in…</h5>
+                            <br> 
+                            <button class="text-white fw-bold mt-3">VIEW DETAILS</button>    
+                           </span>
+                    </div>
+                    <div class="d-md-inline-flex d-sm-block mt-4" id="project">
+                        <img src="img/project-9.jpg" alt="" class="img-fluid col-md-5 col-sm-10">
+                        <span class="fa-pull-left px-3 mt-2 mt-xl-3">
+                            <h4 class="mt-0">NASA Schedules</h4>
+                            <h5 class="mt-4">A picture paints a thousand words. So if you’re planning on pursuing a career in…</h5>
+                            <br> 
+                            <button class="text-white fw-bold mt-3">VIEW DETAILS</button>    
+                           </span>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="pills-Learning" role="tabpanel" aria-labelledby="pills-Learning-tab">
+                    <div class="d-md-inline-flex d-sm-block mt-4" id="project">
+                        <img src="img/event1.jpg" alt="" class="img-fluid col-md-5 col-sm-10">
+                        <span class="fa-pull-left px-3 mt-2 mt-xl-3">
+                            <h4 class="mt-0">Spacewalking Conference</h4>
+                            <h5 class="mt-4">A picture paints a thousand words. So if you’re planning on pursuing a career in…</h5>
+                            <br> 
+                            <button class="text-white fw-bold mt-3">VIEW DETAILS</button>    
+                           </span>
+                    </div>
+                    <div class="d-md-inline-flex d-sm-block mt-4" id="project">
+                        <img src="img/event3.jpg" alt="" class="img-fluid col-md-5 col-sm-10">
+                        <span class="fa-pull-left px-3 mt-2 mt-xl-3">
+                            <h4 class="mt-0">Graphic Design Workshop</h4>
+                            <h5 class="mt-4">A picture paints a thousand words. So if you’re planning on pursuing a career in…</h5>
+                            <br> 
+                            <button class="text-white fw-bold mt-3">VIEW DETAILS</button>    
+                           </span>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="pills-ProfessionalStudy" role="tabpanel" aria-labelledby="pills-ProfessionalStudy-tab">
+                    <div class="d-md-inline-flex d-sm-block mt-4" id="project">
+                        <img src="img/event1.jpg" alt="" class="img-fluid col-md-5 col-sm-10">
+                        <span class="fa-pull-left px-3 mt-2 mt-xl-3">
+                            <h4 class="mt-0">Spacewalking Conference</h4>
+                            <h5 class="mt-4">A picture paints a thousand words. So if you’re planning on pursuing a career in…</h5>
+                            <br> 
+                            <button class="text-white fw-bold mt-3">VIEW DETAILS</button>    
+                           </span>
+                    </div>
+                    <div class="d-md-inline-flex d-sm-block mt-4" id="project">
+                        <img src="img/event3.jpg" alt="" class="img-fluid col-md-5 col-sm-10">
+                        <span class="fa-pull-left px-3 mt-2 mt-xl-3">
+                            <h4 class="mt-0">Graphic Design Workshop</h4>
+                            <h5 class="mt-4">A picture paints a thousand words. So if you’re planning on pursuing a career in…</h5>
+                            <br> 
+                            <button class="text-white fw-bold mt-3">VIEW DETAILS</button>    
+                           </span>
+                    </div>
+                    <div class="d-md-inline-flex d-sm-block mt-4" id="project">
+                        <img src="img/event4.jpg" alt="" class="img-fluid col-md-5 col-sm-10">
+                        <span class="fa-pull-left px-3 mt-2 mt-xl-3">
+                            <h4 class="mt-0">History of Art</h4>
+                            <h5 class="mt-4">A picture paints a thousand words. So if you’re planning on pursuing a career in…</h5>
+                            <br> 
+                            <button class="text-white fw-bold mt-3">VIEW DETAILS</button>    
+                           </span>
+                    </div>
+                </div>
+
+              </div>
+         </div>
+     </div>
+    
+    <div class="container-fluid mt-5" id="intro">
+        <div class="row">
+            <center>
+                <br>
+            <p class="text-center text-white fw-bold mt-5">
+                We're aiming to provide our clients with the best service!
+            </p>
+            <br>
+            <button class="offset-4 mt-lg-5 fw-bold mt-md-5">Make an Appointment </button>
+        </center>
+        </div>
+    </div>
+            
+
+     </content>
+     <footer>
+        <div class="container mt-5" id="footercontact">
+            <div class="row">
+                <div class="d-md-inline-flex d-sm-block">
+
+               
+                <div class="card col-md-5 col-sm-10 col-lg-3 border-0">
+                    <img src="img/uni-logo.png" alt="" class="img-fluid w-100">
+                    <h5 class="text-center">SHERRY<em>UNI</em></h5>
+                </div> 
+                <div class="d-md-inline-block d-lg-inline-flex mt-5 col-md-7 col-lg-5">
+                    <div class="card col-sm-10">
+                        <h4>Contact Us</h4>
+                        <h6 class="mt-2"><i class="fa fa-phone" aria-hidden="true"></i> 1-800-1234-567, 1-800-6547-321</h6>
+                        <h6><i class="fa fa-map-marker" aria-hidden="true"></i> university</h6>
+                        <h6><i class="fa fa-envelope" aria-hidden="true"></i>   info@sherryuni.org</h6>
+                    </div>
+                    <div class="card col-sm-10">
+                        <h4>Subscribe</h4>
+                        <form class="form-inline mt-2">
+                            <label class="sr-only" for="inlineFormInputName2">Name</label>
+                            <input type="text" class="form-control mb-2 mr-sm-2 mt-2" id="inlineFormInputName2" placeholder="Jane Doe">
+                          
+                            <label class="sr-only" for="inlineFormInputGroupUsername2">Username</label>
+                            <div class="input-group mb-2 mr-sm-2 mt-2">
+                              <div class="input-group-prepend">
+                                <div class="input-group-text">@</div>
+                              </div>
+                              <input type="text" class="form-control" id="inlineFormInputGroupUsername2" placeholder="Username">
+                            </div>
+                          
+                            <div class="form-check mb-2 mr-sm-2">
+                              <input class="form-check-input" type="checkbox" id="inlineFormCheck">
+                              <label class="form-check-label" for="inlineFormCheck">
+                                Remember me
+                              </label>
+                            </div>
+                            <button type="submit" class="mt-md-5 mt-sm-2">Submit</button>
+                          </form>
+                    </div>
+                </div> 
+            </div>  
+            </div>
+        </div>
+        <br><br><br><br><br>
+        <div class="container-fluid" id="copyright">
+            <div class="row">
+                <ul class="list-unstyled list-inline-item justify-content-around">
+                    <li class="list-inline-item mt-md-4 ms-md-5"><h6 class="text-center text-white">Sherrihan © . All rights reserved.</h6></li>
+                    <li class="list-inline-item mt-md-2 mt-sm-0 fixed-bottom"><a class="nav-link float-end"  href="index.html">
+                        <i class="fa fa-chevron-up text-white text-center pt-2" aria-hidden="true" id="arrow"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <link rel="stylesheet" href="bootstrap-5.0.0-beta1-dist/js/bootstrap.min.js">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+    </body>

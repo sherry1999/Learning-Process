@@ -1,0 +1,41 @@
+marquee
+{
+    background-color: bisque;
+    font-size: 20px;
+}
+table
+{
+    background-color:blanchedalmond;
+    border-style: dotted;
+    margin-left: 50px;
+    
+}
+h2
+{
+    border-bottom-style:dotted;
+    border-bottom-color:cadetblue;
+  margin-left: 100px;
+    width: 20%;
+    
+}
+body
+{
+    background-color: darkgray;
+    background-image: url(../1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+}
+h1{
+    margin-left: 400px;
+    background-color: aqua; 
+    width: 20%;
+}
+img
+{
+    border:solid;
+    padding: 20px;
+    border-color: blueviolet;
+    border-style: dashed;
+}

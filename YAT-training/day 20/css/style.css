@@ -1,0 +1,13 @@
+#title, #icon {
+  color: #f96015;
+}
+
+#about {
+  text-align: start;
+  background-color: lightgrey;
+}
+
+#image {
+  width: 500px;
+  height: 300px;
+}

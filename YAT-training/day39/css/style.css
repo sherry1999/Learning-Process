@@ -1,0 +1,81 @@
+#infobar li {
+    margin-left: 30px;
+}
+
+#infobar li i {
+    color: orange;
+}
+
+#navbarlist li a {
+
+    margin-left: 30px;
+    color: black;
+    font-size: 20px;
+}
+
+#navbarlist li a:hover {
+    color: orange;
+}
+
+.nav-brand {
+    color: orange;
+    font-size: 20px;
+    font-style: italic;
+}
+
+#image {
+    height: 500px;
+    background-image: url(../img/slidebar2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#image h2,
+p {
+    margin-top: 150px;
+    margin-left: 50px;
+    color: white;
+}
+
+#image button {
+    margin-left: 50px;
+    background-color: gray;
+    border: gray;
+    color: gainsboro;
+    width: 180px;
+    height: 35px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    padding-left: 10px;
+
+    position: relative;
+}
+
+#image i {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background-color: orange;
+    top: -10px;
+    left: -3px;
+    bottom: 0;
+    padding-top: 15px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.card {}
+
+.card i {
+    color: orange;
+}
+
+#firstcard {
+    background-color: orange;
+    height: 250px;
+}

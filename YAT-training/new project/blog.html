@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>blog page</title>
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/blog-style.css">
+    <link rel="stylesheet" href="bootstrap-5.0.0-beta1-dist/css/bootstrap.min.css">
+</head>
+<body>
+    <!-- ***********************  Login Modal   ********************************************************************** -->
+    <div class="modal fade" id="modal">
+        <div class="modal-dialog modal-sm modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header border-0 justify-content-end" data-dismiss="modal"><i class="fa fa-times-circle" aria-hidden="true"></i></div>
+                <div class="modal-body offset-1">
+                
+                        <label for="" name="username" class="px-3" required>Username</label> <br>
+                        <input type="text" class="w-75 mt-2"> <br>
+                        <label for="" name="password" class="px-3">Password</label> <br>
+                        <input type="password" class="w-75 mt-2"> <br>
+                        <div class="form-check mt-4">
+                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                            <label class="form-check-label" for="defaultCheck1">
+                              Remember Me
+                            </label>
+                          </div> <!-- end form check -->
+                          <button class="mt-4 ms-4">LOG IN </button>
+                </div>  <!-- end modal body -->
+            </div>  <!-- end modal content -->
+        </div>  <!-- end modal dialog -->
+    </div> <!-- end modal -->          
+<!-- *********************** end  Login Modal   ********************************************************************** -->
+<!-- ***********************  search Modal   ********************************************************************** -->
+    <div class="modal fade" id="searchmodal">
+        <div class="modal-dialog modal-fullscreen">
+            <div class="modal-content modal-fullscreen modal-dialog-centered modal-dialog-scrollable">
+                <div class="modal-header border-0 justify-content-end" data-dismiss="modal"><i class="fa fa-window-close" aria-hidden="true"></i></div>
+                <div class="modal-body justify-content-center">
+                <input type="text" placeholder="search .." class="">
+                        
+                </div>  <!-- end modal body -->
+            </div>  <!-- end modal content -->
+        </div>  <!-- end modal dialog -->
+    </div> <!-- end modal -->          
+<!-- *********************** end  search Modal   ********************************************************************** -->
+    <header>
+        <div class="container-fluid" id="infobar">
+            <div class="row">
+                <div class="justify-content-md-center">
+                    <ul class="list-unstyled d-md-inline-flex">
+                        <li class="text-light"><i class="fa fa-phone" aria-hidden="true"></i> (1234567)</li>
+                        <li class="text-light"><i class="fas fa-envelope" aria-hidden="true"> university.com</i></li>
+                        <li class="text-light"><i class="fa fa-map-marker" aria-hidden="true"></i> 24/7 Emergency Service</li>
+                    </ul>
+                    <li class="float-md-end text-light list-unstyled"><a href="" data-toggle="modal" data-target="#modal"><i class="fas fa-sign-in-alt" aria-hidden="true"></i> Login</a></li>
+                </div> <!-- end div->ul -->   
+            </div> <!-- end row -->   
+        </div>  <!-- end container infobar -->   
+    
+        <div class="container" id="navbar">
+            <div class="row">
+                <nav class="navbar navbar-expand-md justify-content-md-between">
+                  <div class="navbar-brand d-md-inline-flex">
+                      <img src="img/uni-logo.png" alt="logo" class="col-md-4"> 
+                      <div id="brandname">
+                        <h5 class="mt-0 clear">SHERRY<em>UNI</em></h5>
+                        <p class="">NO ONE LIKE YOU <br>NO PLACE LIKE US</p>
+                       </div>   <!-- end brandname -->
+                  </div>  <!-- end navbar-brand -->
+                    <button class="navbar-toggler float-end" type="button" data-toggle="collapse" data-target="#navbarlist" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="fa fa-bars" aria-hidden="true"></i>
+                    </button>        
+                    <div class="collapse navbar-collapse justify-content-xxl-end" id="navbarlist">
+                        <ul class="nav navbar-nav">
+                            <li class="nav-item "><a href="index.html" class="nav-link">Home</a></li>
+                            <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+                            <li class="nav-item dropdown">
+                                <a href="services.html" class="nav-link dropdown-toggle" data-toggle="dropdown">Services</a>
+                                <ul class="dropdown-menu">
+                                    <li class="dropdown-item">Global Education</li>
+                                    <li class="dropdown-item">Online Learning</li>
+                                    <li class="dropdown-item">Programs</li>
+                                    <li class="dropdown-item">Summer Sessions</li>
+                                    <li class="dropdown-item">Ungraduate Study</li>
+                                    <li class="dropdown-item">Professional Study</li>
+
+
+
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="project.html" class="nav-link dropdown-toggle" data-toggle="dropdown">Project</a>
+                                <ul class="dropdown-menu">
+                                    <li class="dropdown-item">International Conference on Biomolecular Engineering</li>
+                                    <li class="dropdown-item">History of Art</li>
+                                    <li class="dropdown-item">NASA Schedules</li>
+                                    <li class="dropdown-item">Spacewalking Conference</li>
+                                    <li class="dropdown-item">Graphic Design Workshop</li>
+                                </ul>
+                            </li>
+                            <li class="nav-item "><a href="" class="nav-link">Pricing</a></li>
+                            <li class="nav-item "><a href="blog.html" class="nav-link">Blog</a></li>
+                            <li class="nav-item "><a href="contact.html" class="nav-link">Contacts</a></li>
+
+
+
+                        </ul>
+                    </div>   <!-- end navbarlist -->
+                    <i class="fa fa-search" id="searchicon"data-toggle="modal" data-target="#searchmodal" aria-hidden="true"></i>
+
+                </nav>
+            </div> <!-- end row navbar -->   
+        </div> <!-- end container navbar -->   
+        
+    </header>
+    <content>
+        <div class="container">
+            <div class="row">
+                <div class="card-group flex-column col-lg-9 col-md-9 col-sm-12" id="posts">
+                    <div class="card offset-1 mt-5 col-lg-7 col-md-7 col-sm-12">
+                       <h3 class="card-title">Liberal Arts Colleges Rankings</h3>
+                       <h6 class="mt-2"> By <em>admin</em> In <em>Academic</em>     Posted April 24, 2017</h6>
+                       <img src="img/news6.jpg" class="img-fluid mt-4" alt="">
+                       <p class="card-body mt-4">
+                        Liberal Arts Colleges emphasize undergraduate education and award at least
+                        half of their degrees in the liberal arts fields of study.</p>
+                        <h6 class="card-text px-3">Tags: <em>Design</em></h6>
+                    </div>
+                    <hr class="offset-1 mt-5">
+                    
+                    <div class="card offset-1 mt-5 col-lg-7 col-md-7 col-sm-12">
+                        <h3 class="card-title">10 Law Schools Where the Most Accepted Students Enroll</h3>
+                        <h6 class="mt-2"> By <em>admin</em> In <em>Campus</em>     Posted March 13, 2017</h6>
+                        <img src="img/news1.jpg" class="img-fluid mt-4" alt="">
+                        <p class="card-body mt-4">
+                            At these schools, at least 42 percent of accepted students 
+                            enrolled in fall 2015, U.S. News data show.</p>
+                         <h6 class="card-text px-3">Tags: <em>Departments, Session</em></h6>
+                     </div>
+                     <hr class="offset-1 mt-5">
+
+                     <div class="card offset-1 mt-5 col-lg-7 col-md-7 col-sm-12">
+                        <h3 class="card-title">Consider MBA Programs That Offer Summer Prep</h3>
+                        <h6 class="mt-2"> By <em>admin</em> In <em>Campus, Education</em>     Posted April 24, 2017</h6>
+                        <img src="img/news2.jpg" class="img-fluid mt-4" alt="">
+                        <p class="card-body mt-4">
+                            Summer preparatory programs offered through schools allow students to get a head start on
+                             making connections and building skills.</p>
+                         <h6 class="card-text px-3">Tags: <em> Industrial</em></h6>
+                     </div>
+                     <hr class="offset-1 mt-5">
+
+                     <div class="card offset-1 mt-5 col-lg-7 col-md-7 col-sm-12">
+                        <h3 class="card-title">Ways Parents and Counselors Can Help Students Earn Scholarships</h3>
+                        <h6 class="mt-2"> By <em>admin</em> In <em>Education</em>     Posted April 24, 2017</h6>
+                        <img src="img/news3.jpg" class="img-fluid mt-4" alt="">
+                        <p class="card-body mt-4">
+                            Securing scholarships can be stressful, but parents and counselors can serve as a resource.</p>
+                         <h6 class="card-text px-3">Tags: <em>Departmens, Session</em></h6>
+                     </div>
+                     <hr class="offset-1 mt-5">
+
+                     <div class="card offset-1 mt-5 col-lg-7 col-md-7 col-sm-12">
+                        <h3 class="card-title">5 Ways to Pay for Community College</h3>
+                        <h6 class="mt-2"> By <em>admin</em> In <em>Online Learningn</em>     Posted April 24, 2017</h6>
+                        <img src="img/news4.jpg" class="img-fluid mt-4" alt="">
+                        <p class="card-body mt-4">
+                            Many community colleges offer promise programs, which offer tuition-free 
+                            awards to eligible students – mainly to students with Pell grant eligibility.</p>
+                         <h6 class="card-text px-3">Tags: <em>Departmens, Session</em></h6>
+                     </div>
+                     <hr class="offset-1 mt-5">
+
+                     <div class="card offset-1 mt-5 col-lg-7 col-md-7 col-sm-12">
+                        <h3 class="card-title">Studying in the United States</h3>
+                        <h6 class="mt-2"> By <em>admin</em> In <em>Campus</em>     Posted April 24, 2017</h6>
+                        <img src="img/news5.jpg" class="img-fluid mt-4" alt="">
+                        <p class="card-body mt-4">
+                            International students increasingly want to come to the United States
+                             for college or graduate school.</p>
+                         <h6 class="card-text px-3">Tags: <em>Departmens, Session</em></h6>
+                     </div>
+                     <hr class="offset-1 mt-5">
+
+                     <div class="card offset-1 flex-wrap flex-row" id="pages">
+                         <div class="square text-center">1</div>
+                         <div class="square2 text-center">2</div>
+                         <h6 class="mt-2">Next <i class="fa fa-chevron-right" aria-hidden="true"></i></h6>
+
+                     </div>
+                </div>
+
+                <div class="card-group flex-column col-lg-3 col-md-3 col-sm-12" id="aside">
+                    <div class="row">
+                        <div class="card mt-5 d-flex flex-row">
+                            <input class="form-control" type="text" placeholder="Enter Keyword Search">
+                            <div class="text-cente offset-1" id="search"><i class="fa fa-search text-light p-2" aria-hidden="true"></i></div>
+                        </div>
+                        <div class="card">
+                            <hr class="w-100 mt-5">
+                            <h4 class="card-title fw-bold">Recent Posts</h4>
+                            <a href="">Liberal Arts Colleges Rankings</a>
+                            <a href="">10 Law Schools Where the Most Accepted Students Enroll</a>
+                            <a href="">Consider MBA Programs That Offer Summer Prep</a>
+                            <a href="">Ways Parents and Counselors Can Help Students Earn Scholarships</a>
+                            <a href="">5 Ways to Pay for Community College</a>
+                        </div>
+
+                        <div class="card">
+                            <hr class="w-100 mt-5">
+                            <h4 class="card-title fw-bold">Recent Comments</h4>
+                            
+                        </div>
+
+                        <div class="card">
+                            <hr class="w-100 mt-5">
+                            <h4 class="card-title fw-bold">Archives</h4>
+                            <a href="">April 2017</a>
+                            <a href="">March 2017</a>
+                            
+                        </div>
+
+                        <div class="card">
+                            <hr class="w-100 mt-5">
+                            <h4 class="card-title fw-bold">Categories</h4>
+                            <a href="">Academic</a>
+                            <a href="">Campus</a>
+                            <a href="">Education</a>
+                            <a href="">Online Learning</a>
+                            <a href="">Study</a>
+
+                            
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </content>
+    <br><hr>
+    <br><br>
+    <footer>
+        <div class="container" id="footercontact">
+            <div class="row">
+                <div class="d-md-inline-flex d-sm-block">
+
+               
+                <div class="card col-md-5 col-sm-10 col-lg-3 border-0">
+                    <img src="img/uni-logo.png" alt="" class="img-fluid w-100">
+                    <h5 class="text-center">SHERRY<em>UNI</em></h5>
+                </div> 
+                <div class="d-md-inline-block d-lg-inline-flex mt-5 col-md-7 col-lg-5">
+                    <div class="card col-sm-10">
+                        <h4>Contact Us</h4>
+                        <h6 class="mt-2"><i class="fa fa-phone" aria-hidden="true"></i> 1-800-1234-567, 1-800-6547-321</h6>
+                        <h6><i class="fa fa-map-marker" aria-hidden="true"></i> university</h6>
+                        <h6><i class="fa fa-envelope" aria-hidden="true"></i>   info@sherryuni.org</h6>
+                    </div>
+                    <div class="card col-sm-10">
+                        <h4>Subscribe</h4>
+                        <form class="form-inline mt-2">
+                            <label class="sr-only" for="inlineFormInputName2">Name</label>
+                            <input type="text" class="form-control mb-2 mr-sm-2 mt-2" id="inlineFormInputName2" placeholder="Jane Doe">
+                          
+                            <label class="sr-only" for="inlineFormInputGroupUsername2">Username</label>
+                            <div class="input-group mb-2 mr-sm-2 mt-2">
+                              <div class="input-group-prepend">
+                                <div class="input-group-text">@</div>
+                              </div>
+                              <input type="text" class="form-control" id="inlineFormInputGroupUsername2" placeholder="Username">
+                            </div>
+                          
+                            <div class="form-check mb-2 mr-sm-2">
+                              <input class="form-check-input" type="checkbox" id="inlineFormCheck">
+                              <label class="form-check-label" for="inlineFormCheck">
+                                Remember me
+                              </label>
+                            </div>
+                            <button type="submit" class="mt-md-5 mt-sm-2">Submit</button>
+                          </form>
+                    </div>
+                </div> 
+            </div>  
+            </div>
+        </div>
+        <br><br><br><br><br>
+        <div class="container-fluid" id="copyright">
+            <div class="row">
+                <ul class="list-unstyled list-inline-item justify-content-around">
+                    <li class="list-inline-item mt-md-4 ms-md-5"><h6 class="text-center text-white">Sherrihan © . All rights reserved.</h6></li>
+                    <li class="list-inline-item mt-md-2 mt-sm-0 fixed-bottom"><a class="nav-link float-end"  href="index.html">
+                        <i class="fa fa-chevron-up text-white text-center pt-2" aria-hidden="true" id="arrow"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+    <link rel="stylesheet" href="bootstrap-5.0.0-beta1-dist/js/bootstrap.min.js">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+</body>

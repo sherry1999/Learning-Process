@@ -1,0 +1,85 @@
+content #menu h5 {
+  color: #86898c;
+}
+
+content #menu a {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  background-color: transparent;
+}
+
+content #menu a:hover {
+  color: #b80924;
+}
+
+content #project h4 {
+  color: black;
+}
+
+content #project h4:hover {
+  color: #b80924;
+}
+
+content #project h5 {
+  color: #86898c;
+  font-weight: normal;
+}
+
+content #project button {
+  background-color: #b80924;
+  border: none;
+  color: white;
+  margin-top: 100px;
+  font-weight: bold;
+  width: 150px;
+  height: 50px;
+  border-radius: 5px;
+}
+
+content #project button:hover {
+  background-color: #0d2d62;
+}
+
+content #feedback {
+  background-color: black;
+  margin-top: 100px;
+}
+
+content #intro {
+  background-image: url(../img/uni-versity.jpg);
+  background-size: cover;
+  height: 350px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+content #intro p {
+  font-size: 30px;
+  font-style: oblique;
+}
+
+content #intro button {
+  background-color: #b80924;
+  border: none;
+  color: white;
+  margin-top: 100px;
+  font-weight: bold;
+  width: 150px;
+  height: 50px;
+  border-radius: 5px;
+  border-radius: 10px;
+  width: 300px;
+  margin: 0;
+}
+
+content #intro button:hover {
+  background-color: white;
+  color: #0d2d62;
+}
+
+@media only screen and (max-width: 430px) {
+  #project button {
+    margin-bottom: 20px;
+  }
+}

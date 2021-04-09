@@ -1,0 +1,21 @@
+@import "colors";
+
+    #title,#icon
+    {
+        color:$orang;
+    }
+
+   #about
+   {
+       text-align:start;
+       background-color: lightgrey;
+   }
+#image
+{
+    width:500px;
+    height:300px;
+}
+#logo
+{
+    height: 28px;
+}

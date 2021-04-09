@@ -1,0 +1,165 @@
+-alter table stud
+add city varchar(100)
+
+
+==>structured tables
+1-describe stud
+2-show columns from stud 
+3-show fields from stud
+
+
+==>number of tables
+
+1-show table status
+
+
+==>show create table stud
+
+==>drop table stud
+
+
+==>create  -> if not exists
+==>drop    ->if exists
+
+
+==>rename table 
+1-rename table stud to std
+2-more-operation-rename table -go(wiserd=without query)
+
+
+=>التعديل ع جدول 
+1-ازاى اغير اسم الاعمده
+2-ازاى اغير نوع الاعمده
+3-ازاى اغير ف ترتيب الاعمده
+4-ازاى اضيف عمود جديد
+
+
+
+==>اضافه عمود جديد
+-alter table student add column password varchar(30)
+
+==>اضافه عمود بترتيب معين  ف الاول او الاخر او بعد عمود معين
+-alter table student add column password varchar(30) first ,after (column name)
+
+==>مسح عمود من جدول 
+- alter table student drop password
+
+==>ترتيب الاعمده
+1-alter table student change sname sname varchar(50) after city
+
+==>تغيير نوع البيانات 
+1-alter table student modify std_name char(50)
+
+
+
+==>اضافه بيانات لجدول معين
+
+1-INSERT INTO table_name (column1, column2, column3, ...)
+VALUES (value1, value2, value3, ...),
+(value1, value2, value3, ...),
+(value1, value2, value3, ...)
+
+-->task:- insert 10 row
+
+
+==>display data
+1-select column1,column2,...
+from table name
+
+2-select * from tablename
+
+3-select DISTINCT(city) FROM student ==>not repeat data
+
+4-select column1,column2,...
+from table name
+where condition
+
+==>or - and - not
+
+________________________________________________________________________________________________________________
+==> order by -> asc,desc
+
+==>UPDATE table_name
+SET column1 = value1, column2 = value2, ...
+WHERE condition;
+
+
+==>relationship 
+1-one to one 
+2-one to many
+3-many to many
+
+
+
+==>constraint القيود
+1-no null
+
+=>alter table name 
+modify phone int not null
+
+
+2-unique
+
+=>ALTER TABLE Persons
+ADD UNIQUE (ID);
+
+3-primary key 
+
+=>ALTER TABLE Persons
+ADD PRIMARY KEY (ID);
+
+
+_________________________________________
+1- and -or -not (true)
+2- order by (true)
+3- select top=limit (true)
+4- select distinct (true)
+5- min ,max ,avg ,count ,sum (true)
+6- like(true)
+7- alies and join
+8- in=or , between and=range(true)
+9- view
+____________________________________________
+relationships:-
+
+1- one to one=>f.k and unique
+
+2- one to many
+
+a------b 1----m
+
+3- many to many
+
+clients ---- c_s----- shop
+c_id-pk--id-pk,c_id,s_id-f.k--s_id pk
+
+_________________________________________
+==>اضافه عمود بترتيب معين  ف الاول او الاخر او بعد عمود معين
+-alter table student add column password varchar(30) first ,after column name
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

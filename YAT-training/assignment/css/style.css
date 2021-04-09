@@ -1,0 +1,52 @@
+.col-lg-3
+{
+    background-color: lightgrey;
+    width: 400px;
+    margin-top: 10px;
+}
+.navbar
+{
+    background-color: lightgrey;
+}
+#list,#list3
+{
+    outline-style: solid;
+    outline-color: black;
+    outline-width:1px;
+}
+#list3
+{
+    padding-bottom:5px;
+}
+#navbarTogglerDemo01
+{
+    visibility: hidden;
+}
+button
+{
+    float: right;
+    visibility: hidden;
+}
+  /* .navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -30px;
+  } */
+  /* END HEADER */
+@media only screen and (max-width:600px)
+{
+   #navbarTogglerDemo01,button
+   {
+       visibility:visible;
+    }
+       
+       i,li
+       {
+           font-size: 20px;
+       }
+       li
+       {
+           border-bottom: 2px solid black;
+     }
+       
+
+}

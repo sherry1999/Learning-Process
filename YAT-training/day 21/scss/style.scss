@@ -1,0 +1,65 @@
+@import"colors";
+body
+{
+    background-color: $bg;
+    height: 700px;
+}
+nav
+{
+    button
+    {
+        border:solid;
+        border-color: #48aee8;
+        border-radius:200px;
+        height:40px;
+        
+    }
+}
+article
+{
+    p
+    {
+        font-size:28px;
+        color:#8299c2;
+    }
+    #button
+    {
+        border:none;
+        background-color: #48aee8;
+        border-radius:200px;
+        height: 40px;
+        
+    }
+    #plus
+    {
+        font-size: 20px;
+        background-color:#42699a;
+        outline-style: none;
+        border:0;
+       outline-style: solid;
+        outline-color:$bg ;
+    }
+}
+footer
+{
+   background-color: $footerbg;
+   
+}
+
+@media only screen and (max-width:600px)
+{
+    #headers
+    {   margin-top: 10px;
+        display: block;
+        text-align:right;
+        padding:5px;
+    }
+    #image
+    {
+        margin-top: 20px;
+    }
+}
+img{
+    width: 350px;
+    height: 450px;
+}

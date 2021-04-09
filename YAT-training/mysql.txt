@@ -1,0 +1,88 @@
+mysql
+xampp==>all os apache mysql php 
+database=>tables=>colums and rows
+-column=field
+-row=record
+-cell
+
+
+mysql=>free,open source,easy to use,RDBMS
+RDBMS=>relational database management system
+
+1-command line
+2-phpmysql
+3-s.w 
+
+
+*sql, mysql, mysqli , PDO
+
+1-sql=>structured query lang
+2-mysql=>database system(oracle,mssql,...)or software
+3-mysqli=>extensions connect to db(mysql)
+4-PDO=>extensions connect to db(any database system)
+
+captial=small
+keyword
+dates and string ""
+# /*   
+
+*/
+
+
+
+create db                      ==>> query
+create tables row+column
+relationships
+contraints
+join
+like
+stored procedure
+drop db ,delete
+
+_____________________________________________________
+1-create database ss;
+=> create database if not exists ss;
+school
+
+
+2-drop DATABASE ff
+=>drop DATABASE if EXISTS ff
+
+_____________________________________________________
+
+=>number
+1-tiny integer  4
+2-small integer 6
+3-medium integer 9
+4-big integer     20
+5-integer         11
+
+6-float,double,decimal
+=> boolean(0,1)
+
+=>date , time 
+1-date    yyyy-mm-dd
+2-datetime yyyy-mm-dd hh:m:s
+3-time  hh:m:s
+4-year yyyy     yy
+
+=>string
+1-char   255
+2-varchar  65,535
+
+=>BLOB   ->binary(image)
+
+
+=>enum ->radio
+
+=>set  ->checkbox
+
+_____________________________________________________
+
+
+
+create table s(id int ,name varchar(50));
+
+
+
+

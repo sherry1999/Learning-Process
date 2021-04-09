@@ -1,0 +1,126 @@
+h2
+{ 
+    color: aliceblue;
+    border: solid;
+    font-size: 30px;
+    border-color: SandyBrown;
+    width:350px;
+    height:100px;
+    padding-top: 50px;
+    border-width: thick;
+    border-radius: 30px;
+    background-color: black;  
+    margin-top: 10%;
+    
+}
+body
+{
+    background:aliceblue;
+}
+.home
+{
+    background-color: darkgreen;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 70%;
+}
+.red
+{  background-color: red;
+    width: 70px;
+    height: 70px;
+    position: relative;
+    top: 10%;
+    left: 10%; 
+}
+.blue
+{  background-color: blue;
+    width: 70px;
+    height: 70px;
+    position: relative;
+    margin-left: 350px;
+}
+.yellow
+{ background-color: yellow;
+        position: relative;
+     width: 70px;
+    height: 70px;
+    margin-left: 50px;
+    margin-top: 100px;
+}
+.orange
+{ background-color: orange;
+    width: 70px;
+    height: 70px;
+        position: relative;
+        margin-left: 350px;
+}
+.pink
+{ background-color: pink;
+     width: 70px;
+    height: 70px;
+    margin-left: 11%;
+    position: relative;
+}
+.deeppink
+{   background-color: deeppink;
+    width: 70px;
+    height: 70px;
+    position: relative;
+    margin-left: 350px;
+
+}
+.skyblue
+{ background-color: deepskyblue;
+    width: 90px;
+    height: 180px;
+    position: absolute;
+    bottom: 0;
+    left: 45%;
+}
+.black
+{
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    top: 85%;
+    left: 10%;
+    right: 30%;
+}
+.one
+{
+    background-color: white;
+    width: 90px;
+    height: 12px;
+    margin-left: 10%;
+    margin-top: 5%;    
+}
+.two
+{
+/*
+    background-color: white;
+    width: 60px;
+    height: 10px;
+    margin-left: 30%;
+    margin-bottom: 10%;
+*/
+    background-color: white;
+    position: absolute;
+    left: 30%;
+    top: 45%;
+    bottom: 45%;   
+    right: 60%;
+     
+}
+.three
+{ 
+    background-color: white;
+    position: absolute;
+    left: 80%;
+    top: 45%;
+    bottom: 45%;   
+    right: 10%;
+}
+
+
