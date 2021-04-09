@@ -1,0 +1,371 @@
+* {
+  margin: 0;
+}
+
+.nav-bar {
+  max-width: 100%;
+  height: 50px;
+  background-color: white;
+}
+
+.logo img {
+  width: 25px;
+  height: 25px;
+  margin: 10px;
+}
+
+.logo h2 {
+  font-size: 20px;
+  position: absolute;
+  top: 10px;
+  left: 38px;
+  color: #2d8eb9;
+}
+
+.nav-right {
+  position: absolute;
+  right: 0;
+  top: 15px;
+}
+
+.nav-right button {
+  background-color: whitesmoke;
+  padding: 4px;
+  margin: 4px;
+  border-style: none;
+  outline: 2px solid gainsboro;
+}
+
+.nav-right button i {
+  font-size: 15px;
+  padding: 5px;
+  color: grey;
+  display: inline;
+}
+
+.nav-right button:hover, #download:hover {
+  background-color: aqua;
+  color: white;
+}
+
+.nav-right button:hover i, #download:hover i {
+  color: white;
+}
+
+#download {
+  background-color: #03a7e4;
+  padding: 6px;
+}
+
+.screen {
+  position: absolute;
+  top: 15px;
+  left: 260px;
+}
+
+.screen i {
+  font-size: 15px;
+  color: lightslategray;
+  padding: 5px;
+  margin: 7px;
+  display: inline;
+}
+
+.screen i:hover {
+  color: #46afd5;
+}
+
+.blue-part {
+  max-width: 100%;
+  border-bottom: 20px solid #d2e4f0;
+  border-bottom-left-radius: 45%;
+  height: 450px;
+  background-image: url(../img/background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 50px;
+  right: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.bg {
+  max-width: 100%;
+  border-bottom: 20px solid #d2e4f0;
+  border-bottom-left-radius: 45%;
+  height: 450px;
+  background-color: #25475d;
+  position: absolute;
+  top: 0px;
+  right: 0;
+  left: 0;
+  opacity: 0.8;
+  z-index: 2;
+}
+
+.content {
+  color: white;
+  max-width: 100%;
+  height: 450px;
+  border-bottom: 20px solid #d2e4f0;
+  border-bottom-left-radius: 45%;
+  position: absolute;
+  top: 0px;
+  right: 0;
+  left: 0;
+  z-index: 3;
+}
+
+.content h3 {
+  font-size: 30px;
+  font-weight: 100;
+  margin-top: 25px;
+  margin-left: 70px;
+  font-family: Arial, sans-serif;
+  letter-spacing: 2px;
+}
+
+.content h1 {
+  font-size: 50px;
+  margin-top: 50px;
+}
+
+.content p {
+  margin-top: 45px;
+}
+
+.content button {
+  color: white;
+  border: 1.5px solid #46afd5;
+  background-color: #385d6d;
+  border-radius: 180px;
+  margin-top: 50px;
+  width: 130px;
+  height: 38px;
+}
+
+.content #chev-left {
+  position: absolute;
+  font-size: 30px;
+  top: 45%;
+  left: 10%;
+  color: lightslategray;
+}
+
+.content #chev-rigth {
+  position: absolute;
+  top: 45%;
+  font-size: 30px;
+  left: 90%;
+  color: lightslategray;
+}
+
+.content #chev-rigth:hover, .content #chev-left:hover, .content button:hover {
+  color: #46afd5;
+  background-color: aqua;
+}
+
+.headers {
+  margin-left: 50%;
+  position: absolute;
+  top: 30px;
+}
+
+.headers li {
+  list-style: none;
+  display: inline;
+  color: white;
+  padding: 10px;
+  margin: 5px;
+}
+
+.headers li:hover {
+  color: #46afd5;
+}
+
+.headers i {
+  font-size: 15px;
+  padding: 2px;
+}
+
+.white-part {
+  width: 100%;
+  background-color: white;
+  border-bottom: 2px solid gainsboro;
+  position: absolute;
+  top: 520px;
+  z-index: 5;
+}
+
+.white-part li {
+  padding-left: 100px;
+  margin-top: 100px;
+  padding-bottom: 20px;
+  text-decoration: none;
+  display: inline-table;
+}
+
+.first, .second, .third, .fourth {
+  width: 200px;
+  height: 280px;
+  background-color: white;
+  box-shadow: 5px 5px 1px whitesmoke;
+  outline: 2px solid #e4eaed;
+  margin-left: 40%;
+  position: relative;
+}
+
+.first .circle, .second .circle, .third .circle, .fourth .circle {
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+  background-color: #ffe5f5;
+  position: absolute;
+  top: 25px;
+  left: 50px;
+}
+
+.first .circle i, .second .circle i, .third .circle i, .fourth .circle i {
+  font-size: 35px;
+  color: #ee7ea4;
+  padding: 30%;
+}
+
+.first h3, .second h3, .third h3, .fourth h3 {
+  margin-top: 50px;
+  padding-top: 125px;
+  padding-left: 5px;
+}
+
+.first p, .second p, .third p, .fourth p {
+  color: grey;
+  padding-top: 25px;
+  text-align: center;
+  padding-left: 15px;
+}
+
+.second .circle {
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+  background-color: #e5ffff;
+  position: absolute;
+  top: 25px;
+  left: 50px;
+}
+
+.second .circle i {
+  font-size: 35px;
+  color: #9edde2;
+  padding: 30%;
+}
+
+.second p {
+  color: grey;
+}
+
+.third .circle {
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+  background-color: #eaffe7;
+  position: absolute;
+  top: 25px;
+  left: 50px;
+}
+
+.third .circle i {
+  font-size: 35px;
+  color: #96d38d;
+  padding: 30%;
+}
+
+.third p {
+  color: grey;
+}
+
+.fourth .circle {
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+  background-color: #e1eefe;
+  position: absolute;
+  top: 25px;
+  left: 50px;
+}
+
+.fourth .circle i {
+  font-size: 35px;
+  color: #3b8aff;
+  padding: 30%;
+}
+
+.fourth p {
+  color: grey;
+}
+
+@media only screen and (max-width: 600px) {
+  .nav-bar {
+    height: 60px;
+  }
+  .nav-right {
+    top: 28px;
+  }
+  .logo img, .logo h2 {
+    top: 0;
+    margin: 0;
+    left: 25px;
+  }
+  .screen {
+    left: 230px;
+    top: 0;
+  }
+  .blue-part {
+    top: 60px;
+  }
+  .bg, .content {
+    top: 0px;
+  }
+  .content {
+    margin-top: 10px;
+  }
+  .content h3 {
+    font-size: 15px;
+  }
+  .content h1 {
+    font-size: 25px;
+    position: absolute;
+    left: 5%;
+    top: 50px;
+  }
+  .content p {
+    font-size: 15px;
+    position: absolute;
+    left: 7%;
+    top: 120px;
+    width: 200px;
+    text-align: start;
+  }
+  .content button {
+    margin-top: 300px;
+  }
+  .content .headers li {
+    display: block;
+  }
+  .content .headers {
+    top: 0;
+    right: 0;
+    bottom: 0;
+  }
+  .content #chev-left, .content #chev-rigth {
+    display: none;
+  }
+  .white-part li {
+    display: block;
+    padding-bottom: 5px;
+    margin: 0;
+    margin-left: 0;
+    padding-left: 0;
+  }
+}

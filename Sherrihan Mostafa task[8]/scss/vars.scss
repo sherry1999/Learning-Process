@@ -1,0 +1,85 @@
+$main-width:100%;
+$icon-size:15px;
+$titlec:#2d8eb9; 
+$downloadc:#03a7e4;
+$firstbgc:#25475d;
+$butttonc:#46afd5;
+$ccolor1:#ffe5f5;
+$ccolor2:#e5ffff;
+$ccolor3:#eaffe7;
+$ccolor4:#e1eefe;
+$icolor1:#ee7ea4;
+$icolor2:#9edde2;
+$icolor3:#96d38d;
+$icolor4:#3b8aff;
+$boxshadow:#f1f0f5;
+$ptext:grey;
+$borderc:#d2e4f0;
+$borderrad:45%;
+
+@mixin nav-right-icon {
+    font-size: $icon-size;
+        padding: 5px;
+        color:grey;
+    
+}
+@mixin devices {
+    font-size: $icon-size;
+    color:lightslategray;
+    padding: 5px;
+    margin:7px;     
+}
+@mixin nav-button {
+    background-color :whitesmoke;
+    padding:4px;
+    margin:4px;
+    border-style: none;
+    outline: 2px solid gainsboro;   
+}
+@mixin header {
+    list-style: none;
+    display: inline;
+    color: white;
+    padding: 10px;
+    margin: 5px;  
+}
+@mixin arrow-left {
+    position: absolute;
+    font-size:30px;
+    top:45%; 
+    left:10%; 
+    color:lightslategray;  
+}
+@mixin arrow-rigth {
+    position: absolute;
+    top:45%; 
+    font-size:30px;
+    left:90%; 
+    color:lightslategray;
+}
+@mixin circle ($ccolor)
+{
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    background-color: $ccolor;
+    position: absolute;
+    top:25px;
+    left:50px; 
+}
+@mixin icon ($icolor)
+{
+    font-size:35px ;
+    color: $icolor;
+    padding: 30%;
+        
+}
+@mixin border 
+{
+    border-bottom:20px solid $borderc;
+    border-bottom-left-radius:$borderrad;
+    
+}
+
+    
+    

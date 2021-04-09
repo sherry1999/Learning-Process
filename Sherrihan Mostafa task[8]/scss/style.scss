@@ -1,0 +1,365 @@
+@import "vars";
+*
+{
+    margin:0;
+}
+.nav-bar
+{
+    max-width:$main-width;
+    height:50px;
+    background-color :white;
+    
+}
+.logo
+{
+    img
+    {
+        width: 25px; 
+        height: 25px;
+        margin: 10px;
+    }
+    h2
+    {
+        font-size: 20px; 
+        position: absolute; 
+        top:10px;
+        left:38px;
+        color:$titlec;
+    }
+   
+
+}
+.nav-right
+{
+    button 
+    {
+        @include nav-button;
+
+        i 
+        {
+            @include nav-right-icon;
+            display: inline;
+        }
+    }
+    position: absolute;
+    right: 0;
+    top:15px;
+
+}
+.nav-right button:hover , #download:hover
+{
+        i 
+        {color: white;}
+        background-color: aqua;
+        color: white;
+}
+#download
+{
+    background-color:$downloadc;
+    padding:6px;
+}      
+.screen
+{
+    i
+    {
+        @include devices;
+        display: inline;
+    }
+    position: absolute; 
+    top:15px;
+    left:260px;
+}
+.screen i:hover
+{
+    color: $butttonc;
+}
+.blue-part
+{
+    max-width: $main-width;
+    @include border;
+    height:450px;
+    background-image:url(../img/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top:50px;  right: 0; left: 0;
+    z-index:1;
+}
+.bg
+{    max-width: $main-width;
+     @include border;
+    height: 450px;
+    background-color: $firstbgc;
+    position: absolute;
+    top:0px;  right: 0; left: 0;
+    opacity:0.8;
+    z-index: 2;
+}
+.content
+{  
+    color: white; 
+    max-width: $main-width;
+    height:450px;
+    @include border;
+    position: absolute;
+    top:0px;  right: 0; left: 0;
+    z-index: 3;
+
+    h3
+    {
+        font-size: 30px; 
+        font-weight: 100; 
+        margin-top:25px; 
+        margin-left: 70px; 
+        font-family: Arial, sans-serif;
+        letter-spacing: 2px;
+    }
+    h1
+    {
+        font-size: 50px; 
+        margin-top: 50px; 
+    }
+    p
+    {
+        margin-top: 45px; 
+    }
+    button
+    {   color: white;
+        border: 1.5px solid $butttonc; 
+        background-color: #385d6d;
+        border-radius:180px; 
+        margin-top: 50px;
+        width: 130px; 
+        height:38px; 
+    }
+    #chev-left
+    {
+        @include arrow-left;
+    }
+    #chev-rigth
+    {
+        @include arrow-rigth;
+    }
+    #chev-rigth:hover , #chev-left:hover , button:hover
+    {
+        color: $butttonc;
+        background-color: aqua;
+    }
+
+
+}
+.headers
+{
+    li
+    {
+       @include header;
+    }
+    li:hover
+    {
+        color: $butttonc;
+    }
+    i 
+    {
+        font-size: $icon-size;
+        padding: 2px;
+    }
+    margin-left:50%;
+    position: absolute; 
+    top:30px;
+}
+.white-part
+{
+    width: $main-width;
+    background-color:white;
+    border-bottom: 2px solid gainsboro;
+    position: absolute;
+    top:520px;
+    z-index:5;
+    li
+    {
+        padding-left:100px;
+        margin-top:100px;
+        padding-bottom: 20px;
+        text-decoration: none;
+        display: inline-table;
+      
+    }
+}
+.first
+{    width:200px; 
+    height: 280px;
+    background-color: white;
+    box-shadow: 5px 5px 1px whitesmoke;
+    outline: 2px solid #e4eaed ;
+    margin-left: 40%;
+     position: relative;
+    .circle
+    {
+        @include circle($ccolor1);
+        i
+        {
+            @include icon($icolor1);
+        }
+    }
+    h3 
+    {
+        margin-top: 50px;
+        padding-top: 125px;
+        padding-left: 5px;
+    }
+    p
+    {
+        color: $ptext;
+        padding-top: 25px;
+        text-align:center;
+        padding-left:15px;
+    }
+
+}
+.second
+{
+    @extend .first; 
+    .circle
+    {
+        @include circle($ccolor2);
+        i
+        {
+            @include icon($icolor2);
+        }
+    }
+    p
+    {
+        color: $ptext;
+    }
+
+}
+.third
+{
+    @extend .first; 
+    .circle
+    {
+        @include circle($ccolor3);
+        i
+        {
+            @include icon($icolor3);
+        }
+    }
+    p
+    {
+        color: $ptext;
+    }
+
+}
+.fourth
+{
+    @extend .first; 
+    .circle
+    {
+        @include circle($ccolor4);
+        i
+        {
+            @include icon($icolor4);
+        }
+    }
+    p
+    {
+        color: $ptext;
+    }
+
+}
+@media only screen and (max-width:600px)
+{ 
+    .nav-bar
+    {
+        height: 60px;
+    } 
+     .nav-right
+    {
+        top:28px;  
+    }
+    .logo
+    {
+        img, h2 {
+            top: 0;
+            margin: 0;
+            left:25px;
+        }
+       
+    }
+    .screen
+    {
+        left: 230px;
+        top:0;
+
+    } 
+    .blue-part
+    {
+        top:60px; 
+        $borderrad:40%;
+    }
+    .bg, .content
+    {
+        top:0px;
+        $borderrad:40%;
+    }
+        .content
+    {   margin-top: 10px;
+        h3
+        {
+            font-size: 15px;
+        }
+        h1
+        {
+            font-size: 25px;
+            position: absolute;
+            left: 5%;
+            top:50px; 
+        }
+        p 
+        {
+            font-size: 15px;
+            position: absolute;
+            left: 7%;
+            top: 120px;
+            width: 200px;
+            text-align: start;
+        }
+        button
+        {
+            margin-top:300px; 
+        }
+        .headers li
+        {
+            display: block;
+           
+        }
+        .headers
+        {
+            top: 0;
+            right: 0;
+            bottom: 0;
+        }
+        #chev-left,#chev-rigth        
+        {
+            display: none;
+            
+        }
+       
+        
+
+    }
+    .white-part
+    {
+        li
+        {
+            display: block;
+            padding-bottom:5px;
+            margin: 0;
+            margin-left: 0;
+            padding-left: 0;
+
+        }
+    }
+}
+
+
